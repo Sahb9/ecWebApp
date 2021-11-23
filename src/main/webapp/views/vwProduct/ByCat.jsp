@@ -33,7 +33,7 @@
                       <p class="card-text"> ${c.tinyDes}</p>
                     </div>
                     <div class="card-footer text-muted">
-                      <a  class="btn btn-sm btn-outline-primary" href="#" role="button">
+                      <a  class="btn btn-sm btn-outline-primary" href="${pageContext.request.contextPath}/Product/Detail?id=${c.proID}" role="button">
                         <i class="fa fa-eye" aria-hidden="true"></i>
                         Details
                       </a>
