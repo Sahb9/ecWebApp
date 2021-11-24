@@ -19,6 +19,8 @@ public class CategoryModel {
 //                new Category(5, "Loa")));
 //
 //    }
+
+
     public static List<Category> findAll() {
 
         final String query = "select * from categories ";
